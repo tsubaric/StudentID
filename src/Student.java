@@ -17,6 +17,7 @@ public class Student {
 
     public static void main(String[] args) {
         Student[] students = new Student[12];
+        
         // STUDENT DATA (you can also find it on ICON):
         //        Shakespeare, William ID: 9732651
         //        Wilde, Oscar ID: 3645679
@@ -32,7 +33,6 @@ public class Student {
         //        Eliot, Thomas ID: 4812743
         // for each of the student data above, instantiate Student object below
         <YOUR CODE HERE>
-
 
         System.out.println("Unordered");
         for ( Student s : students )
