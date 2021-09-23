@@ -3,22 +3,22 @@ import java.util.Arrays;
 public class Student {
     private String firstName, lastName;
     private int id;
-    // more things here
     public Student(String first, String last, int id) {
         firstName = first; lastName = last; this.id = id;
     }
 
-    public String firstName() { return firstName; }
-    public String lastName()  { return lastName; }
-    public int    id()        { return id; }
+    public String getFirstName() { return firstName; }
+    public String getLastName()  { return lastName; }
+    public int    getID()        { return id; }
     public String toString() {
-        return lastName() + ", " + firstName() + " ID: " + id();
+        return getLastName() + ", " + getFirstName() + " ID: " + getID();
     }
 
     public static void main(String[] args) {
         Student[] students = new Student[12];
 
         // STUDENT DATA (you can also find it on ICON):
+        //
         //        Shakespeare, William ID: 9732651
         //        Wilde, Oscar ID: 3645679
         //        Woolf, Virginia ID: 7187403
@@ -31,6 +31,7 @@ public class Student {
         //        Remarque, Eric ID: 7475529
         //        Hardy, Godfrey ID: 6213968
         //        Eliot, Thomas ID: 4812743
+        //
         // for each of the student data above, initialize each element of the array students
         <YOUR CODE HERE>
 
