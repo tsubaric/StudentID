@@ -19,20 +19,21 @@ public class Student {
 
         // STUDENT DATA (you can also find it on ICON):
         //
-        //        Shakespeare, William ID: 9732651
-        //        Wilde, Oscar ID: 3645679
-        //        Woolf, Virginia ID: 7187403
-        //        Douglass, Frederick ID: 9654412
-        //        Roth, Phillip ID: 5549364
-        //        Cherryh, CJ ID: 1207642
-        //        Plath, Sylvia ID: 3204661
-        //        Hardy, Thomas ID: 8335687
-        //        Eliot, George ID: 2562056
-        //        Remarque, Eric ID: 7475529
-        //        Hardy, Godfrey ID: 6213968
-        //        Eliot, Thomas ID: 4812743
+        //        Last Name    First Name  ID
+        //        Shakespeare  William     9732651
+        //        Wilde        Oscar       3645679
+        //        Woolf        Virginia    7187403
+        //        Douglass     Frederick   9654412
+        //        Roth         Phillip     5549364
+        //        Cherryh      CJ          1207642
+        //        Plath        Sylvia      3204661
+        //        Hardy        Thomas      8335687
+        //        Eliot        George      2562056
+        //        Remarque     Eric        7475529
+        //        Hardy        Godfrey     6213968
+        //        Eliot        Thomas      4812743
         //
-        // for each of the student data above, initialize each element of the array students
+        // initialize each element of the array students using the student data above
         <YOUR CODE HERE>
 
         System.out.println("Unordered");
