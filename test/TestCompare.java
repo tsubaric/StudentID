@@ -4,7 +4,6 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 import java.util.Arrays;
 
-
 public class TestCompare {
     Comparator tester1, tester2;
     Student s1, s2, s3, s4, s5;
