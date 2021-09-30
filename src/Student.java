@@ -18,22 +18,6 @@ public class Student {
     public static void main(String[] args) {
         Student[] students = new Student[12];
 
-        // STUDENT DATA (you can also find it on ICON):
-        //        Last Name    First Name  ID
-        //        Shakespeare  William     9732651 X
-        //        Wilde        Oscar       3645679 X
-        //        Woolf        Virginia    7187403 X
-        //        Douglass     Frederick   9654412 X
-        //        Roth         Phillip     5549364 X
-        //        Cherryh      CJ          1207642 X
-        //        Plath        Sylvia      3204661 X
-        //        Hardy        Thomas      8335687 X
-        //        Eliot        George      2562056 X
-        //        Remarque     Eric        7475529 X
-        //        Hardy        Godfrey     6213968 X
-        //        Eliot        Thomas      4812743 X
-        // initialize each element of the array students using the student data above
-
         students[0] = new Student("William", "Shakespeare", 9732651);
         students[1] = new Student("Oscar", "Wilde", 3645679);
         students[2] = new Student("Virginia", "Woolf", 7187403);
