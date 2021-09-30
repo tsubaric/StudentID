@@ -16,7 +16,6 @@ public class TestCompare {
         s4 = new Student("F", "A4", 11114);
         s5 = new Student("F5", "L", 11111);
     }
-
     @Test
     public void test_compare_id_0()
     {
@@ -25,7 +24,6 @@ public class TestCompare {
         assertTrue(tester1.compare(s1, s3) > 0);
         assertTrue(tester1.compare(s4, s5) > 0);
     }
-
     @Test
     public void test_compare_id_1()
     {
